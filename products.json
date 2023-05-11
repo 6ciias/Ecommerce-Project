@@ -1,0 +1,74 @@
+[
+	{
+		"image": "img/america.png",
+		"title": "2023 America Jersey",
+		"description": "Adult Sizes Only Made with 100% Recycled Materials.",
+		"price": "$79.99"
+	},
+	{
+		"image": "img/argentina.png",
+		"title": "2023 Argentina Jersey",
+		"description": "Adult Sizes Only Made with 100% Recycled Materials.",
+		"price": "$79.99"
+	},
+	{
+		"image": "img/brazil.png",
+		"title": "2023 Brazil Jersey",
+		"description": "Adult Sizes Only Made with 100% Recycled Materials.",
+		"price": "$79.99"
+	},
+	{
+		"image": "img/chelsea.png",
+		"title": "2023 Chelsea Jersey",
+		"description": "Adult Sizes Only Made with 100% Recycled Materials.",
+		"price": "$79.99"
+	},
+	{
+		"image": "img/chivas.png",
+		"title": "2023 Chivas Jersey",
+		"description": "Adult Sizes Only Made with 100% Recycled Materials.",
+		"price": "$79.99"
+	},
+	{
+		"image": "img/real madrid.png",
+		"title": "2023 Real Madrid Jersey",
+		"description": "Adult Sizes Only Made with 100% Recycled Materials.",
+		"price": "$79.99"
+	},
+	{
+		"image": "img/portugal.png",
+		"title": "2023 Portugal Jersey",
+		"description": "Adult Sizes Only Made with 100% Recycled Materials.",
+		"price": "$79.99"
+	},
+	{
+		"image": "img/juventus.png",
+		"title": "2023 Juventus Jersey",
+		"description": "Adult Sizes Only Made with 100% Recycled Materials.",
+		"price": "$79.99"
+    },
+	{
+		"image": "img/napoli.png",
+		"title": "2023 Napoli Jersey",
+		"description": "Adult Sizes Only Made with 100% Recycled Materials.",
+		"price": "$79.99"
+    },
+	{
+		"image": "img/england.png",
+		"title": "2023 England Jersey",
+		"description": "Adult Sizes Only Made with 100% Recycled Materials.",
+		"price": "$79.99"
+	},
+	{
+		"image": "img/tottenham.png",
+		"title": "2023 Tottenham Jersey",
+		"description": "Adult Sizes Only Made with 100% Recycled Materials.",
+		"price": "$79.99"
+    },
+	{
+		"image": "img/ac milan.png",
+		"title": "2023 AC Milan Jersey",
+		"description": "Adult Sizes Only Made with 100% Recycled Materials.",
+		"price": "$79.99"
+    }
+]

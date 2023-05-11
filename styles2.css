@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Lexend,sans-serif;
+}
+@font-face {
+	font-family: 'Italian Plate No2 Expanded';
+	src: url('https://static.afterpay.com/font/ItalianPlateNo2Expanded-Bold.eot');
+	src: url('https://static.afterpay.com/font/ItalianPlateNo2Expanded-Bold.eot?#iefix') format('embedded-opentype'), url('https://static.afterpay.com/font/ItalianPlateNo2Expanded-Bold.woff2') format('woff2'), url('https://static.afterpay.com/font/ItalianPlateNo2Expanded-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+  }
+
+body{
+	font-family: Lexend,sans-serif;
+	min-height: 100vh;
+	color: #ffffff;
+	
+}
+
+h2{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 50px;
+}
+.json-page{
+	background-image: radial-gradient(circle, #1d1d1d, rgb(29, 29, 29), rgb(21, 20, 20));
+}
+.navbar2 {
+    display: inline-block;
+  }
+  .navbar2 h1{
+    color: white;
+    font-family: 'Italian Plate No2 Expanded';
+   position: relative;  
+   left: 35%;;
+   text-shadow: 2px 2px #fffefe54;
+   margin-top: -50px;
+ }   
+
+    .navbar2 ul li{
+        list-style: none;
+        display: inline-block;
+        left: 400%;
+        bottom: 33px;
+        margin: 0 25px;
+        margin-right: 1px;
+        position: relative;
+        }
+
+    .navbar2 ul li a{
+    font-size: 18px;
+    color: white;
+    }
+    .navbar2 ul li::after{
+      content:" ";
+      height:3px;
+      width: 0%;
+      background: #df32f6;
+      position: absolute;
+      left: 0%;
+      bottom:-10px;
+      transition: width 0.3s ease-in-out;
+      }
+      
+      .navbar2 ul li:hover::after{
+      width: 100%;
+      }
+
+.products{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-gap: 50px;
+	margin: 50px auto;
+	max-width: 1240px;
+	padding: 20px;
+}
+
+.product{
+	padding: 10px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.product img{
+	width: 350px;
+	height: 350px;
+	display: block;
+}
+
+.product .title{
+	font-size: 27px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-weight: 900;
+	color: white;
+}
+
+.product .description{
+	padding: 0 20px 20px 20px;	
+	line-height: 22px;
+	font-weight: 600;
+	color: gray;
+}
+
+.product .price{
+	text-align: center;
+	font-weight: 600;
+	font-size: 28px;
+	color: #fbfbfb;
+	padding-top: 30px;
+	font-family: sans-serif;
+}
+
+.product .cart{
+	text-align: center;
+	padding: 15px 0;
+	margin-top: 40px;
+	background-color: #d31fcd;
+	border-radius: 20px;
+	color: white;
+	font-size: 18px;
+	font-weight: 800;
+	cursor: pointer;
+}
+
+.product .cart i{
+	padding-left: 10px;
+}
+
+.view-more{
+	margin: 0 auto;
+	max-width: 1240px;
+	padding: 20px;
+	text-align: center;
+}
+
+.view-more button{
+	padding: 10px 25px;
+}
+/* Media query for iPhone and iPad */
+@media screen and (max-width: 767px) {
+	.navbar2 {
+	  width:100%;
+	  margin: 10px;
+	  padding: 10px 0;
+	  
+	  }
+	 
+	  .navbar2 ul li{
+		  list-style: none;
+		  display: inline-block;
+		  left:40%;
+		  margin: 0 25px;
+		  margin-right: 1px;
+		  position: relative;
+		  }
+	}
+	.navbar2 h1{
+		font-family: 'Italian Plate No2 Expanded';
+	   position: absolute;
+	  left: 6%;
+	   text-shadow: 2px 2px #fffefe54;
+   }   
+  

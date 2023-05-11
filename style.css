@@ -1,0 +1,841 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Lexend,sans-serif;
+    }
+    @font-face {
+        font-family: 'Italian Plate No2 Expanded';
+        src: url('https://static.afterpay.com/font/ItalianPlateNo2Expanded-Bold.eot');
+        src: url('https://static.afterpay.com/font/ItalianPlateNo2Expanded-Bold.eot?#iefix') format('embedded-opentype'), url('https://static.afterpay.com/font/ItalianPlateNo2Expanded-Bold.woff2') format('woff2'), url('https://static.afterpay.com/font/ItalianPlateNo2Expanded-Bold.woff') format('woff');
+        font-weight: 700;
+        font-style: normal;
+      }
+    
+ .navbar h1{
+    color: white;
+    font-family: 'Italian Plate No2 Expanded';
+   position: relative;
+   display: flex;
+   right: 20%;
+   text-shadow: 2px 2px #fffefe54;
+ }   
+.banner{
+    width:100%;
+    height:120vh;
+    background-image:linear-gradient(rgba(0,0,0,0.90),rgba(141, 8, 123, 0.15)),url(img/background2.png);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+  display: flex;
+  width:48px;
+  height:48px;
+  margin: 20px;
+  cursor:pointer;
+  }
+ 
+  .navbar {
+    width:100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+   
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        right: 15%;
+        margin: 0 25px;
+        margin-right: 10px;
+        position: relative;
+        }
+
+    .navbar ul li a{
+    font-size: 18px;
+    color: white;
+    }
+    .navbar ul li::after{
+      content:" ";
+      height:3px;
+      width: 0%;
+      background: #df32f6;
+      position: absolute;
+      left: 0%;
+      bottom:-10px;
+      transition: width 0.3s ease-in-out;
+      }
+      
+      .navbar ul li:hover::after{
+      width: 100%;
+      }
+    
+    .cart{
+        width:30px;
+        height:30px;
+        right: 20px;
+        list-style: none;
+        display: inline-block;
+        margin-right: 10px;
+        position: relative;
+      }
+    
+    /* HOME PAGE */
+    .content{
+        position: relative;
+        top: 10%;
+        left: 2%;
+        color: #fff;
+        margin-top: -100px;
+        }
+        
+        .content h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 80px;
+        color: #df32f6;
+        }
+        
+        .content h2{
+         font-size: 70px;
+         margin-top: 20px;
+         text-align: center;
+         color: white;
+        }
+
+        .content p{
+        margin: 20px auto;
+        font-size: 24px;
+        line-height: 25px;
+        text-align: center;
+        color: #fff;
+        }
+
+        button {
+          width: 200px;
+          padding: 15px 0;
+          text-align: center;
+          font-size: 18px;
+          margin: 20px 10px;
+          border-radius: 15px;
+          font-weight: bold;
+          border: 2px solid #df32f6;
+          background: linear-gradient(to left, #df32f6 , #b00ac6);
+          color:#fff;
+          cursor: pointer;
+          position: relative;
+          transition: background linear-gradient 0.3s;
+        }
+        button:hover {
+          box-shadow: 0px 0px 15px 0px rgba(223,50,246,0.75);        
+        }        
+        button a{
+          color: white;
+        }
+
+
+.bartwo{
+  background: linear-gradient(to right, #df32f6 , #b00ac6);
+text-transform: uppercase;
+color: white;
+text-align: center;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+}
+
+/* SECTION 2 HOMEPAGE*/
+.section-2{
+  background-image: radial-gradient(circle, #1d1d1d, rgb(29, 29, 29), rgb(21, 20, 20));
+}
+  
+  .content-2 h1{
+  position: relative;
+  text-align: center;
+  font-family: 'Italian Plate No2 Expanded';
+  font-size: 80px;
+  margin-top:0px;
+  color: white;
+  }
+
+  .best-sellers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding: 40px;
+    
+  }
+  .best-sellers {
+    padding: 20px;
+    text-align: center;
+  }
+  .best-sellers img {
+   width: 400px;
+   height: 400px;
+  }
+.best-sellers h2{
+font-family: 'Italian Plate No2 Expanded';
+font-size: 40px;
+padding: 15px;
+color: white;
+
+}
+  .best-sellers p{
+    color: rgb(202, 200, 200);
+    font-size: 19px;
+    font-weight: bold;
+    
+  }
+
+  .best-sellers h3{
+    font-size: 30px;
+    font-family: 'Italian Plate No2 Expanded';
+    line-height: 2;
+    color: #fff;
+  }
+
+.ratings{
+  font-size: 20px;
+}
+
+.rating p{
+  color: orange;
+}
+
+.checked{
+  color: orange;
+  font-size: 25px;
+}
+
+.delivery-text h4{
+color:#ce2fe2;
+font-size: 15px;
+}
+.delivery-text h5{
+  font-weight: 650;
+}
+.delivery-text p{
+  font-size: 13px;
+  font-weight: 400;
+  }
+
+  /* SECTION 3 OF HOME PAGE */
+
+  .section-3{
+  background-image: radial-gradient(circle, #81198f, rgb(110, 7, 130), rgb(86, 5, 86));
+  }
+  .content-3 h1{
+color: white;
+font-family: 'Italian Plate No2 Expanded';
+font-size: 50px;
+text-align: center;
+padding: 10%;
+  }
+  .button-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 40px;
+    margin-top: -8%;
+    
+  }
+
+.button-services{
+padding: 30px;
+/* border: 1px solid black; */
+
+  }
+.btn-smll{
+  width: 65px;
+  font-size: 30px;
+  margin-left: 130px;
+  align-items: center;
+  cursor:default
+}
+
+.button-services h2{
+  color: white;
+  margin-left: 40px;
+  font-size: 23px;
+}
+
+.button-services p{
+  color: white;
+  font-weight: 540;
+  margin-left: 80px;
+  line-height: 30px;
+}
+
+/* SECTION 4 OF HOMEPAGE//FOOTER */
+.section-4{
+  background-image: radial-gradient(circle, #1d1d1d, rgb(29, 29, 29), rgb(21, 20, 20));
+}
+.content-4 h1{
+  position: relative;
+  text-align: center;
+  font-family: 'Italian Plate No2 Expanded';
+  font-size: 80px;
+  color: white;
+}
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 40px;
+  
+}
+
+.reviews{
+  padding: 30px;
+  border: 1px solid #;
+  
+}
+.reviews h2{
+  font-family: Lexend,sans-serif;
+  font-size: 35px;
+  color:rgb(255, 255, 255)
+}
+.reviews p{
+  color: rgb(202, 200, 200);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Lexend,sans-serif;
+    line-height: 34px;
+}
+.reviews h3{
+  margin-top: 10px;
+  color: #df32f6;
+}
+.reviews p4{
+  line-height: 30px;
+  color: #fff;
+}
+
+.reviews img{
+  border-radius: 50px;
+  height: 70px;
+  width: 70px;
+  margin-left: 220px;
+  margin-top: -11%;
+}
+
+.footer{
+  position: relative;
+  margin-left: 50%;
+  padding: 80px 0;
+  width: 100%;
+  text-align: center;
+
+  }
+  
+  .footer .socialss{
+  text-align: center;
+  color: black;
+  }
+  
+  .footer .socialss a{
+  font-size: 55px;
+  color: white;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 12px;
+  }
+  
+  .footer .socialss a:hover{
+  opacity: 0.9;
+  }
+  
+  .footer ul li a{
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+  }
+
+  .btn-socials{
+    width: 90px;
+    padding: 12px 0;
+    text-align: center;
+    text-shadow: 10% black;
+    border-radius: 43px;
+    border: 2px solid black;
+    background: linear-gradient(to left, #252525 , #323232);;
+    color:black;
+  }
+
+  .btn-socials:hover {
+    background: linear-gradient(to left, #df32f6 , #df32f6);;
+   }
+   .btn-socials:hover i{
+    color: white; 
+   }
+  .links2 {
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  transition: color 0.3s;
+  }
+
+  .links2 a{
+    color: gray;
+    font-weight: 800;
+  }
+
+  .links2 a:hover{
+    opacity: 0.8;
+  }
+
+  /* SHOP ALL / NAVBAR */
+
+  .navbar2 {
+    display: inline-block;
+  }
+  .navbar2 h1{
+    color: white;
+    font-family: 'Italian Plate No2 Expanded';
+   position: relative;  
+   left: 35%;;
+   text-shadow: 2px 2px #fffefe54;
+   margin-top: -50px;
+ }   
+
+    .navbar2 ul li{
+        list-style: none;
+        display: inline-block;
+        left: 400%;
+        bottom: 33px;
+        margin: 0 25px;
+        margin-right: 1px;
+        position: relative;
+        }
+
+    .navbar2 ul li a{
+    font-size: 18px;
+    color: white;
+    }
+    .navbar2 ul li::after{
+      content:" ";
+      height:3px;
+      width: 0%;
+      background: #df32f6;
+      position: absolute;
+      left: 0%;
+      bottom:-10px;
+      transition: width 0.3s ease-in-out;
+      }
+      
+      .navbar2 ul li:hover::after{
+      width: 100%;
+      }
+
+      /* SHOP PAGE PRODUCT SLIDER */
+      .shop-all-homepage{
+        background-image:linear-gradient(rgba(0,0,0,0.90),rgba(141, 8, 123, 0.15)),url(img/background2.png);
+        width:100%;
+        height:100vh;
+        background-size: cover;
+      }
+
+
+      .product {
+        position: relative;
+        overflow: hidden;
+        padding: 20px;
+        color: white;
+      }
+      .product-category {
+        font-family: 'Italian Plate No2 Expanded';
+        padding: 20px;
+        font-size: 70px;
+        font-weight: 500;
+        margin-top: 10px;
+        text-align: center;
+      }
+      
+      .product-container {
+        padding: 0 10vw;
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+      }
+      
+      .product-container::-webkit-scrollbar {
+        display: none;
+      }
+      
+      .product-card {
+        flex: 0 0 auto;
+        width: 300px;
+        height: 450px;
+        margin-right: 40px;
+      }
+      
+      .product-image {
+        position: relative;
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+      }
+      
+      .product-thumb {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .discount-tag {
+        position: absolute;
+        background: #fff;
+        padding: 5px;
+        border-radius: 5px;
+        color: #df32f6;
+        right: 10px;
+        top: 10px;
+        text-transform: capitalize;
+      }
+      
+      .card-btn {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 10px;
+        width: 90%;
+        text-transform: capitalize;
+        border: none;
+        outline: none;
+        background: #b00ac6;
+        border-radius: 5px;
+        transition: 0.5s;
+        cursor: pointer;
+        opacity: 0;
+      }
+      
+      .product-card:hover .card-btn {
+        opacity: 1;
+      }
+      
+      .card-btn:hover {
+        background: #e540fb;
+        color: black;
+      }
+      
+      .product-info {
+        width: 100%;
+        height: 100px;
+        padding-top: 10px;
+      }
+      
+      .product-brand {
+        color: white;
+      }
+      
+      .product-short-description {
+        width: 100%;
+        height: 20px;
+        line-height: 20px;
+        opacity: 0.5;
+        overflow: hidden;
+        text-transform: capitalize;
+        margin: 5px 0;
+        color:white ;
+      }
+      
+      .price {
+        font-weight: 900;
+        font-size: 20px;
+        color: white;
+      }
+      
+      .actual-price {
+        margin-left: 20px;
+        opacity: 0.5;
+        text-decoration: line-through;
+        color: white;
+      }
+      
+      .pre-btn,
+      .nxt-btn {
+        border: none;
+        width: 10vw;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(32, 32, 32) 99%);
+        cursor: pointer;
+        z-index: 8;
+      }
+      
+      .pre-btn {
+        left: 0;
+        transform: rotate(180deg);
+      }
+      
+      .nxt-btn {
+        right: 0;
+      }
+      
+      .pre-btn img,
+      .nxt-btn img {
+        opacity: 0.2;
+      }
+      
+      .pre-btn:hover img,
+      .nxt-btn:hover img {
+        opacity: 1;
+      }
+    
+      .pre-btn:hover,
+      .nxt-btn:hover {
+       box-shadow: none;
+      }
+      
+      .collection-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+      }
+      
+      .collection {
+        position: relative;
+      }
+      
+      .collection img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .collection p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #ffffffa2;
+        font-size: 50px;
+        text-transform: capitalize;
+      }
+      
+      .collection:nth-child(3) {
+        grid-column: span 2;
+        margin-bottom: 10px;
+      }
+
+      /* SHOP ALL PRODUCTS  */
+
+      .shopall{
+        background-image: radial-gradient(circle, #1d1d1d, rgb(29, 29, 29), rgb(21, 20, 20));
+      }
+      .shop-all-content h1{
+        color: white;
+        text-align: center;
+        font-family: 'Italian Plate No2 Expanded';
+        font-size: 80px;
+      }
+      .shop-all-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 40px;
+        padding: 40px;
+      }
+      .shop-all-product {
+        padding: 20px;
+        text-align: center;
+        border: 1px solid black;
+      }
+      .shop-all-product img {
+       width: 300px;
+       height: 300px;
+      }
+    .shop-all-product h2{
+    font-family: 'Italian Plate No2 Expanded';
+    font-size: 40px;
+    padding: 15px;
+    color: white;
+    
+    }
+      .shop-all-product p{
+        color: gray;
+        font-size: 19px;
+        font-weight: bold;
+        
+      }
+    
+      .shop-all-product h3{
+        font-size: 30px;
+        font-family: 'Italian Plate No2 Expanded';
+        line-height: 2;
+        color: white;
+      }
+    
+      /* CONTACT PAGE */
+      .form-container{
+        width: 100%;
+        height: 100vh;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+        form{
+          background: ;
+          display: flex;
+          flex-direction: column;
+          padding: 10px 4vw;
+          width: 100%;
+          max-width: 600px;
+          border-radius: 50px;
+        }
+   .form-container h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+   }
+
+  /* Media query for iPhone and iPad */
+@media screen and (max-width: 767px) {
+  .navbar {
+    width:100%;
+    margin: 10px;
+    padding: 10px 0;
+    
+    }
+   
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        left:40%;
+        margin: 0 25px;
+        margin-right: 1px;
+        position: relative;
+        }
+  }
+  .navbar h1{
+      font-family: 'Italian Plate No2 Expanded';
+     position: absolute;
+    left: 6%;
+     text-shadow: 2px 2px #fffefe54;
+ }   
+
+@media screen and (max-width: 767px) {
+  .navbar2 {
+    display: inline-block;
+  }
+  .navbar2 h1{
+   position: relative;  
+   left: 35%;;
+   text-shadow: 2px 2px #fffefe54;
+   margin-top: -50px;
+ }   
+
+    .navbar2 ul li{
+        list-style: none;
+        display: inline-block;
+        left: 125%;
+        bottom: 20px;
+        margin: 0 25px;
+        margin-right: 1px;
+        position: relative;
+        }
+}
+
+
+/* MEDIA QUERIES SHOP ALL GRID */ 
+  @media screen and (max-width: 767px) {
+    .shop-all-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .shop-all-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .shop-all-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  
+  /* MEDIA QUERIES SERVICES GRID */ 
+  @media screen and (max-width: 767px) {
+    .button-services-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .button-services-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .button-services {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* MEDIA QUERIES REVIEWS GRID */ 
+  @media screen and (max-width: 767px) {
+    .reviews-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .reviews-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .reviews-grid{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /* MEDIA QUERIES FOOTER */
+  @media screen and (max-width: 767px) {
+    
+    .footer{
+      position: relative;
+      margin-left: 50%;
+      padding: 80px 0;
+      width: 100%;
+      text-align: center;
+      right: 60%;
+    
+      }
+      
+      .footer .socialss{
+      text-align: center;
+  
+      }
+      
+      .footer .socialss a{
+      font-size: 35px;
+      height: 40px;
+      text-align: center;
+      border-radius: 20%;
+      margin: 0 12px;
+      }
+      .links2 {
+        padding: 20px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        transition: color 0.3s;
+        }
+  }
